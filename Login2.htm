@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Primeiro Site</title>
+    <meta name="description" content="Programador Front-End, Senai">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Senai">
+    <meta name="author" content="Enrique Navea">
+    <meta name="viewport" content="Width=device-with, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .formulario {
+            margin: 0 auto;
+            margin-top: 200px;
+            padding: 10px;
+            width: 400px;
+            border: solid 1px #ff6a00;
+            border-radius: 10px;
+        }
+
+        input {
+            height: 30px;
+            width: 195px;
+        }
+
+            input:focus {
+                background-color: #fff;
+            }
+    </style>
+</head>
+<body >
+    <form class='formulario' method='get' action='logado.htm'>
+        <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">Usuário</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+        <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">Senha</span>
+            <input type="password" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+        <br />
+        <button type="button" class="btn btn-secondary btn-lg">Cancelar</button>
+        <button type="button" class="btn btn-primary btn-lg">Login</button>
+    </form>
+</body >
+</html >

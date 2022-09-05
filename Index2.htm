@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Primeiro Site</title>
+    <meta name="description" content="Programador Front-End, Senai">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Senai">
+    <meta name="author" content="Enrique Navea">
+    <meta name="viewport" content="Width=device-with, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        color: #ff0000;
+
+    }
+    .paragrafo{
+        color: #00f;
+    }
+    .botao {
+        margin: 0 auto;
+        border: solid 2px;
+        border-radius: 6px;
+        background-color: #808080;
+        text-align: center;
+        width: 120px;
+        height: 30px;
+    }
+    .botao:hover{
+        background-color: #c6c5c5;
+    }
+</style>
+
+</head>
+<body>
+    <h1>HTML</h1>
+    <div class="p-3 mb-2 bg-info text-dark">
+        Esta é minha primeira experiencia em programação em HTML e CSS.
+    </div>
+    <br>
+    <button type="button" class="btn btn-primary" onclick="window.location.href='login2.htm'">Faça o login</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <br><br />
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-8 bg-info">col-sm-8</div>
+            <div class="col-sm-4 bg-secondary">col-sm-4</div>
+        </div>
+        <div class="row">
+            <div class="col-sm bg-primary">col-sm</div>
+            <div class="col-sm bg-info">col-sm</div>
+            <div class="col-sm bg-danger">col-sm</div>
+            <div class="col-sm bg-primary">col-sm</div>
+        </div>
+    </div>
+</body>
+</html>

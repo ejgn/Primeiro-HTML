@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Primeiro Site</title>
+    <meta name="description" content="Programador Front-End, Senai">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Senai">
+    <meta name="author" content="Enrique Navea">
+    <meta name="viewport" content="Width=device-with, initial-scale=1.0">
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #b0a256;
+        }
+        .formulario{
+            margin: 0 auto;
+            margin-top: 200px;
+            padding: 10px;
+            width: 200px;
+            border: solid 1px #ff6a00;
+            border-radius: 10px;
+        }
+        input{
+            height: 30px;
+            width: 195px;
+        }
+        input:focus{
+            background-color: #fff;
+        }
+    </style>
+
+</head >
+<body >
+    <form class='formulario' method='get' action='logado.htm'>
+        Usuário: <input type='text' name='usuario' placeholder="Insira o usuario."> <br> <br>
+        Senha: <input type='password' name='senha' placeholder="Insira sua senha"> <br> <br>
+        <input type='submit' value='Login' style="cursor: pointer;">
+    </form>
+</body >
+</html >
